@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# This script prints "Holberton school" 10 times
-n=0
+# this is a very cool comment to this code
 
-until [ $n -ge 10 ]
+i=10
+until [ $i -lt 1 ]
 do
-    echo "Holberton School"
-    n=$(( n + 1 ))
+	echo "Best School"
+	((i=i-1))
 done

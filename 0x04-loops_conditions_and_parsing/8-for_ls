@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# displays the content of the current directory in a certain format
+# Display Current Directory Content
 
-list=$(ls)
-for file in $list
+for filename in *;
 do
-    find "$file" | cut -d- -f2
+	echo "$filename" | cut -d'-' -f2
 done
